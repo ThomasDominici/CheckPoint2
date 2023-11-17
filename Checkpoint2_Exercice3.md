@@ -100,7 +100,7 @@ Ici, la carte réseau donc l'adresse IP est 10.10.80.3 initie la communication.
 
 ## Q3.17 : 
 
-Le protocole encapsulé est le protocole ICMP. C'est l eprotocole du Ping qui permet de vérifier la bonne communication entre machine et mettre en évidence les erreurs de communication.
+Le protocole encapsulé est le protocole ICMP. C'est le protocole du Ping qui permet de vérifier la bonne communication entre machines et mettre en évidence les erreurs de communication.
 
 ## Q3.18 : 
 
