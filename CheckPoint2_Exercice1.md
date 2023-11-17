@@ -26,3 +26,37 @@ On peut aussi pinger dans l'autre sens pour vérifier. L'image ci-dessous montre
 
 ![img3](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/ping3.JPG?raw=true)  
 
+
+## Q 1.2 : 
+
+Annulée
+
+## Q 1.3 : 
+
+
+Pour modifier la configuration részeau du client en DHCP, on retourne dans les propriétés IPv4 de l'Ethernet et on coche la case **Obtenir une adresse IP automatiquement comme le montre l'image suivante :   
+
+![img4](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/dhcp1-4.JPG?raw=true)  
+
+Nous obtenons donc une adresse IP fournit par le serveur DHCP selon les critères remplit sur ce serveur. 
+Ici, nous n'obtenons pas la première adresse IP disponible car nos avons des plages IP exclues (de 1 à 19 et de 241 à 254). Nous obtenons donc la première adresse IP dosponible hors exclusion : 172.16.10.20.
+
+![img5](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/scope5.JPG?raw=true)  
+
+
+## Q 1.4 : 
+
+Avec les réglages actuels, le client ne peut pas obtenir l'adresse IP 172.16.10.15 en DHCP.
+Nous pouvons cependant modifier ces réglages pour changer cela.
+
+Nous allons attribuer une réservation à notre machine cliente avec son adresse MAC. 
+Nous cliquons sur **Réservations**, nouvelle réservation comme le montre l'image ci-dessous : 
+
+![img6](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/reservationdhcp6.JPG?raw=true)  
+
+Après redémarrage du client, on vérifie avec la commande ipconfig /all qui affiche le résultat suivant :   
+
+![img7](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/reservationfinal7.JPG?raw=true)
+
+Nous avons bien attribué la bonne adresse à notre client.  
+
