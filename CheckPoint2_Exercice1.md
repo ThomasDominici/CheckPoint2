@@ -39,7 +39,7 @@ Pour modifier la configuration réseau du client en DHCP, on retourne dans les p
 ![img4](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/dhcp1-4.JPG?raw=true)  
 
 Nous obtenons donc une adresse IP fournit par le serveur DHCP selon les critères remplit sur ce serveur. 
-Ici, nous n'obtenons pas la première adresse IP disponible car nos avons des plages IP exclues (de 1 à 19 et de 241 à 254). Nous obtenons donc la première adresse IP dosponible hors exclusion : 172.16.10.20.
+Ici, nous n'obtenons pas la première adresse IP disponible car nos avons des plages IP exclues (de 1 à 19 et de 241 à 254). Nous obtenons donc la première adresse IP disponible hors exclusion : 172.16.10.20.
 
 ![img5](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/scope5.JPG?raw=true)  
 
@@ -50,7 +50,7 @@ Avec les réglages actuels, le client ne peut pas obtenir l'adresse IP 172.16.10
 Nous pouvons cependant modifier ces réglages pour changer cela.
 
 Nous allons attribuer une réservation à notre machine cliente avec son adresse MAC. 
-Nous cliquons sur **Réservations**, nouvelle réservation comme le montre l'image ci-dessous : 
+Nous cliquons sur **Réservations**, **nouvelle réservation** comme le montre l'image ci-dessous : 
 
 ![img6](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/reservationdhcp6.JPG?raw=true)  
 
