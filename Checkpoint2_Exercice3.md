@@ -68,9 +68,11 @@ Si on interverti les ports de connexion des PC2 et 3 sur le switch A, il n'y aur
 
 ## Q3.10 : 
 
-
-
-
+On va taper
+```
+ip dhcp
+```
+Il va faire le DORA (Discover, Offer, Request, Ack) et on aura des IP fournies en dynamique par DHCP.
 
 ## Q 3.11 : 
 
