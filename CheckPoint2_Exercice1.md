@@ -34,7 +34,7 @@ Annulée
 ## Q 1.3 : 
 
 
-Pour modifier la configuration részeau du client en DHCP, on retourne dans les propriétés IPv4 de l'Ethernet et on coche la case **Obtenir une adresse IP automatiquement comme le montre l'image suivante :   
+Pour modifier la configuration réseau du client en DHCP, on retourne dans les propriétés IPv4 de l'Ethernet et on coche la case **Obtenir une adresse IP automatiquement comme le montre l'image suivante :   
 
 ![img4](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/dhcp1-4.JPG?raw=true)  
 
