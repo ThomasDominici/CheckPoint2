@@ -9,8 +9,7 @@ function Log
     {
         New-Item -ItemType File -Path $FilePath | Out-Null
     }
-    else
-    {
+   
     # Construit la ligne de journal
     $Date = Get-Date -Format "dd/MM/yyyy-HH:mm:ss"
     $User = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
@@ -18,7 +17,6 @@ function Log
 
     # Ajoute la ligne de journal au fichier
     Add-Content -Path $FilePath -Value $logLine
-    }
 }
 
 Function Random-Password ($length = 10)
