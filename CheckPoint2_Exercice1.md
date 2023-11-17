@@ -50,7 +50,7 @@ Avec les réglages actuels, le client ne peut pas obtenir l'adresse IP 172.16.10
 Nous pouvons cependant modifier ces réglages pour changer cela.
 
 Nous allons attribuer une réservation à notre machine cliente avec son adresse MAC. 
-Nous cliquons sur **Réservations**, **nouvelle réservation** comme le montre l'image ci-dessous : 
+Nous cliquons sur **Réservations** puis sur **nouvelle réservation** comme le montre l'image ci-dessous : 
 
 ![img6](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/reservationdhcp6.JPG?raw=true)  
 
