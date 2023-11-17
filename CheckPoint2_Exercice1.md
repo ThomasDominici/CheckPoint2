@@ -4,7 +4,7 @@
 
 Nos machines ne ping pas car elle ne sont pas sur le même réseau. On va donc configurer le réseau de la machine client.  
 Pour cela, on va faire un clique droit sur le pictogramme internet en bas àdroite de l'écran et cliquer sur **Ouvrir les paramètres réseaux et internet**.  
-Dans l'onglet Ethernet, nous allons sélectionner **Modifier les options d'adaptateur comme le montre l'image ci-dessous : 
+Dans l'onglet Ethernet, nous allons sélectionner **Modifier les options d'adaptateur** comme le montre l'image ci-dessous : 
 
 ![img1](https://github.com/ThomasDominici/CheckPoint2/blob/main/Ressources/ethernet1.JPG?raw=true)  
 
