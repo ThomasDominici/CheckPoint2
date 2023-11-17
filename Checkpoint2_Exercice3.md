@@ -92,7 +92,7 @@ Le protocole encapsulé est le protocole ARP. Son rôle est d'enregistrer les ad
 
 ## Q3.15 : 
 
-Les matériels A et B ont échangé tout d'abord avec le protocole ARP afin de déterminer l'adresse IP de chacun et son adresse MAC correcpondante. Puis elles ont échanger des pings afin de voir si elles pouvaient bien communiquer entre elles.
+Les matériels A et B ont échangé tout d'abord avec le protocole ARP afin de déterminer l'adresse IP de chacun et son adresse MAC correcpondante. Puis elles ont échangé des pings afin de voir si elles pouvaient bien communiquer entre elles.
 
 ## Q3.16 : 
 
