@@ -54,7 +54,7 @@ foreach ($User in $Users)
     $Name = "$Prenom.$Nom"
     If (-not(Get-LocalUser -Name "$Prenom.$Nom" -ErrorAction SilentlyContinue))
     {
-        $Pass = Random-Password
+        $Pass = Random-Password -PasswordNeverExpires $true
         $Password = (ConvertTo-secureString $Pass -AsPlainText -Force)
         $Description = "$($User.description) - $($User.fonction)"
         $UserInfo = @{
