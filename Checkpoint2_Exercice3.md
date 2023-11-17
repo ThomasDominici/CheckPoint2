@@ -74,11 +74,11 @@ Si on interverti les ports de connexion des PC2 et 3 sur le switch A, il n'y aur
 
 ## Q 3.11 : 
 
-L'adresse Mac du matériel qui initie la communication est 00:50:79:66:68:00. Il s'agit donc d'une carte réseau ayant cette adresse MAC.
+L'adresse Mac du matériel qui initie la communication est 00:50:79:66:68:00. Il s'agit donc du PC1.
 
 ## Q3.12 : 
 
-Le ping a bien été pris en compte puisque l'on a une réponse sur le paquet 6. Ce ping a eu lieu entre les machines ayant les adresses 10.10.4.1 et 10.10.4.2.
+Le ping a bien été pris en compte puisque l'on a une réponse sur le paquet 6. Ce ping a eu lieu entre les machines ayant les adresses 10.10.4.1 et 10.10.4.2 Donc PC1 et PC4.
 
 ## Q3.13 : 
 
@@ -96,7 +96,7 @@ Les matériels A et B ont échangé tout d'abord avec le protocole ARP afin de d
 
 ## Q3.16 : 
 
-Ici, la carte réseau donc l'adresse IP est 10.10.80.3 initie la communication. 
+Ici, c'est PC3 donc l'adresse IP est 10.10.80.3 qui initie la communication. 
 
 ## Q3.17 : 
 
@@ -104,7 +104,7 @@ Le protocole encapsulé est le protocole ICMP. C'est le protocole du Ping qui pe
 
 ## Q3.18 : 
 
-Ici, la communication n'a pas réussi. Cela est du au fait que l'adresse source est 10.11.802et l'adresse destination est 10.10.80.3. Ces machines ne sont pas sur le même réseau.
+Ici, la communication n'a pas réussi. Cela est du au fait que l'adresse source est 10.11.80.2 et l'adresse destination est 10.10.80.3. Ces machines ne sont pas sur le même réseau.
 
 ## Q3.19 : 
 
@@ -116,9 +116,9 @@ Le rôle du matériel A a été de lancer le ping. Le matériel B quant à lui n
 
 ## Q3.21 et Q3.22 : 
 
-La première est une carte réseau de PC avec une adresse MAC ca:01:da:d2:00:1c et une adresse IP 10.10.4.2
-La deuxième est un routeur avec une adresse MAC ca:01:da:d2:00:1c et une adresse IP 172.16.5.253
+La première est une carte réseau de PC avec une adresse MAC ca:01:da:d2:00:1c et une adresse IP 10.10.4.2 : c'est PC4.
+La deuxième est un routeur avec une adresse MAC ca:01:da:d2:00:1c et une adresse IP 172.16.5.253 : c'est un routeur après dans le "nuage" (ou alors erreur de frappe et il s'agit du routeur R2 172.16.5.254).
 
 ## Q3.23 : 
 
-
+La communication est donc enregistrée entre ce réseau le réseau dans le "nuage".
