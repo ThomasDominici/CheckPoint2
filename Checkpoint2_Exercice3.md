@@ -66,7 +66,7 @@ Les machines qui vont pouvoir atteindre le réseau 172.16.5.0/24 sont :
 
 Si on interverti les ports de connexion des PC2 et 3 sur le switch A, il n'y aura aucune modification si l'on a pas définit au préalable des sous-réseaux logiques attribués aux ports du switch dans sa configuration.
 
-## 3.10 : 
+## Q3.10 : 
 
 
 
